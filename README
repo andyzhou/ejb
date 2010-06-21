@@ -1,0 +1,9 @@
+ejabberd 3rd service, support C to C chat, developed in erlang.
+
+INSTALL
+========
+cd ejb;
+vi src/ejb.app;
+make;
+erl;
+1>ejb:start();
