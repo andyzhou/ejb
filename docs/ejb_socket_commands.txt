@@ -1,0 +1,56 @@
+client commands list, xml format.
+===============
+reg
+-----------
+<xml><cmd>reg</cmd><username>diudiu99999</username><passwd>diudiu99999</passwd></xml>
+
+login
+-----------
+<xml><cmd>login</cmd><username>diudiu99999</username><passwd>diudiu99999</passwd></xml>
+
+logincheck
+-----------
+<xml><cmd>logincheck</cmd><username>diudiu99999</username></xml>
+
+quit
+-----------
+<xml><cmd>quit</cmd><username>diudiu99999</username></xml>
+
+getroster
+-----------
+<xml><cmd>getroster</cmd><username>diudiu99999</username></xml>
+
+
+setpresence, presence-> 0:off 1:on status-> online, chat, away, dnd, xa
+-----------
+<xml><cmd>setpresence</cmd><username>diudiu99999</username><presence>0,1</presence><status>online, chat, away, dnd, xa</status></xml>
+
+
+getpresence, only for oneself
+-----------
+<xml><cmd>getpresence</cmd><username>diudiu99999</username></xml>
+
+
+getpresences, for assigned users list, splited by , one by one.
+-----------
+<xml><cmd>getpresences</cmd><userlist>a,b,c,d</userlist></xml>
+
+
+
+sendmsg
+-----------
+<xml><cmd>sendmsg</cmd><username>diudiu99999</username><to>xxxx</to><msg><![CDATA[hi]]></msg></xml>
+
+
+getmsg
+-----------
+<xml><cmd>getmsg</cmd><username>diudiu99999</username><from>xxxx</from></xml>
+
+
+subscribe
+-----------
+<xml><cmd>subscribe</cmd><username>diudiu99999</username><who>diudiu</who><msg><![CDATA[hi]]></msg></xml>
+
+
+
+
